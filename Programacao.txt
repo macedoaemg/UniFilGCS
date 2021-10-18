@@ -11,3 +11,13 @@ begin
    select * from aluno;
 
 end;
+
+procudure excluiAluno()
+begin
+
+   delete from aluno
+    where id = 2;
+
+   select * from aluno;
+
+end;
