@@ -4,7 +4,10 @@ UniFil - PR
 procudure nome()
 begin
 
-  select * from aluno;
+   update aluno
+      set nome = 'Anderson Macedo'
+    where id = 2;
 
+   select * from aluno;
 
 end;
