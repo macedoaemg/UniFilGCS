@@ -1,2 +1,10 @@
 Aula de Git - 18/10/2021
 UniFil - PR
+
+procudure nome()
+begin
+
+  select * from aluno;
+
+
+end;
